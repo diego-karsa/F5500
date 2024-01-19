@@ -53,3 +53,7 @@ Explore the workflow_demo.ipynb file in this repository for a demonstration of a
 ### Contributing
 
 Feel free to contribute to the development of this module by submitting issues or pull requests.
+
+### License
+
+This project is licensed under the MIT License.
