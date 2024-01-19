@@ -1,6 +1,0 @@
-f5500.py
-setup.py
-f5500.egg-info/PKG-INFO
-f5500.egg-info/SOURCES.txt
-f5500.egg-info/dependency_links.txt
-f5500.egg-info/top_level.txt
