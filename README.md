@@ -6,7 +6,7 @@ Installation
 To install the module, run the following command in the terminal:
 
 ```python
-pip install ./F5500_module
+pip install ./f5500
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ Here's a brief overview of the module's functionalities:
 To download a specific F5500 dataset, use the download function. For example:
 
 ```python
-from f5500_module import download
+from f5500 import download
 
 # Example: Download the dataset for schedule "SCH_SB" in the year 2021 using the "Latest" modality.
 download(schedule="SCH_SB", year="2021", modality="Latest", overwrite=False, archive="Datasets")
@@ -29,7 +29,7 @@ download(schedule="SCH_SB", year="2021", modality="Latest", overwrite=False, arc
 The clean function is available to remove older versions of datasets, keeping only the most recent ones:
 
 ```python
-from f5500_module import clean
+from f5500 import clean
 
 # Example: Clean the 'Datasets' folder by removing outdated zip files.
 clean(archive="Datasets")
@@ -40,7 +40,7 @@ clean(archive="Datasets")
 Use the read function to load a specific F5500 dataset into a Pandas DataFrame:
 
 ```python
-from f5500_module import read
+from f5500 import read
 
 # Example: Read the dataset for schedule "SCH_SB" in the year 2021 using the "Latest" modality.
 df = read(schedule="SCH_SB", year="2021", modality="Latest", mod_date="Latest", archive="Datasets")
