@@ -1,7 +1,8 @@
 # F5500 Python Module
 
 The F5500 Python module simplifies the process of downloading, storing, reading, and managing F5500 datasets published by the Department of Labor. This project is currently a work in progress.
-Installation
+
+## Installation
 
 To install the module, run the following command in the terminal:
 
